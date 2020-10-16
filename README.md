@@ -6,3 +6,9 @@ ons skywalking plugin
 
 方案一，参考 SkyWalking rocketMQ-4.x-plugin 插件的源码，修改成支持 ons-client 库的链路追踪。
 ons-client 库的代码，和 rocketmq-client 的代码是非常接近的，把对应的包名改造好就可以了
+
+
+```java
+    mvn install 
+```
+后将 生成的jar包 apm-ons-1.x-plugin-6.6.0.jar 方入 skywalking plugin 文件夹内重启应用即可
