@@ -38,7 +38,7 @@ import org.apache.skywalking.apm.network.trace.component.ComponentsDefine;
  */
 public abstract class AbstractMessageConsumeInterceptor implements InstanceMethodsAroundInterceptor {
 
-    public static final String CONSUMER_OPERATION_NAME_PREFIX = "RocketMQ/";
+    public static final String CONSUMER_OPERATION_NAME_PREFIX = "OnsRocketMQ/";
 
     @Override
     public final void beforeMethod(EnhancedInstance objInst, Method method, Object[] allArguments,

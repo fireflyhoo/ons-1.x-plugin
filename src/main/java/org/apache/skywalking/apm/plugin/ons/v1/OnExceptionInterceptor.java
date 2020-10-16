@@ -33,7 +33,7 @@ import org.apache.skywalking.apm.network.trace.component.ComponentsDefine;
  */
 public class OnExceptionInterceptor implements InstanceMethodsAroundInterceptor {
 
-    public static final String CALLBACK_OPERATION_NAME_PREFIX = "RocketMQ/";
+    public static final String CALLBACK_OPERATION_NAME_PREFIX = "OnsRocketMQ/";
     private static final String DEFAULT_TOPIC = "no_topic";
 
     @Override

@@ -48,7 +48,7 @@ import static com.aliyun.openservices.shade.com.alibaba.rocketmq.common.message.
  */
 public class MessageSendInterceptor implements InstanceMethodsAroundInterceptor {
 
-    public static final String ASYNC_SEND_OPERATION_NAME_PREFIX = "RocketMQ/";
+    public static final String ASYNC_SEND_OPERATION_NAME_PREFIX = "OnsRocketMQ/";
 
     @Override
     public void beforeMethod(EnhancedInstance objInst, Method method, Object[] allArguments, Class<?>[] argumentsTypes,

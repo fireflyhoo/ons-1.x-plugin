@@ -36,7 +36,7 @@ import org.apache.skywalking.apm.plugin.ons.v1.define.SendCallBackEnhanceInfo;
  */
 public class OnSuccessInterceptor implements InstanceMethodsAroundInterceptor {
 
-    public static final String CALLBACK_OPERATION_NAME_PREFIX = "RocketMQ/";
+    public static final String CALLBACK_OPERATION_NAME_PREFIX = "OnsRocketMQ/";
 
     @Override
     public void beforeMethod(EnhancedInstance objInst, Method method, Object[] allArguments, Class<?>[] argumentsTypes,
